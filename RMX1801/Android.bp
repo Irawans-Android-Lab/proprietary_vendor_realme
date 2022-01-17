@@ -252,13 +252,6 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.data.latency-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
-	product_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.factory-V1.0-java",
 	owner: "realme",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.factory-V1.0-java.jar"],
@@ -269,13 +262,6 @@ dex_import {
 	name: "vendor.qti.hardware.factory-V1.1-java",
 	owner: "realme",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.factory-V1.1-java.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.latency-V2.0-java",
-	owner: "realme",
-	jars: ["proprietary/product/framework/vendor.qti.latency-V2.0-java.jar"],
 	product_specific: true,
 }
 
@@ -304,6 +290,27 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.data.latency-V1.0-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.0-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.1-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.1-java.jar"],
 	system_ext_specific: true,
 }
 
