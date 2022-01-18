@@ -3156,4 +3156,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.factory-V1.1-java \
     vendor.qti.latency-V2.0-java \
     vendor.qti.latency-V2.1-java \
+    manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@3.0-service
